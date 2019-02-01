@@ -1,10 +1,12 @@
 package com.gustibimo.idorpoc.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
+import org.springframework.stereotype.Component;
 
 
+@Builder
+@AllArgsConstructor
 @Getter @Setter
 public class Movie {
 
